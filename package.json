@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-mesto-backend",
+  "author": "Vitalii Oberman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "ts-node-dev --respawn --transpile-only --exit-child src/app.ts",
+    "build": "tsc",
+    "lint": "npx eslint src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/mongoose": "^5.11.96",
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0"
+  }
+}
